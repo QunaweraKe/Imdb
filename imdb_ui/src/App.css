@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  padding: 50px;
+}
+
+h1 {
+  color: orange;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+
+.orange {
+  color: orange;
+}
+
+.purple {
+  color: purple;
+}
+
+.rate-container {
+  border-top: 3px solid purple;
+  max-width: 300px;
+}
+
+.rate-container .fa-star {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.movie-list-item .fa-edit, .movie-list-item .fa-trash {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.movie-list-item .fa-trash {
+  color: crimson;
+}
+
+button {
+  background: green;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: grey;
+  cursor: not-allowed;
+}
+
+input, textarea {
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+}
+
+.movie-list button {
+  margin-top: 20px;
+}
+
+.login-container {
+  width: 50%;
+  margin: 50px auto;
+}
